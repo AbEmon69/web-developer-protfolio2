@@ -163,6 +163,7 @@ main {
 #what-i-do-description {
     padding: 30px 150px;
 }
+
 .section-title {
     color: rgb(24, 24, 24);
     font-size: 35px;
@@ -174,7 +175,7 @@ main {
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
-   text-align: center;
+    text-align: center;
 }
 
 .skills-container {
@@ -203,5 +204,61 @@ main {
 .Skill-description {
     color: rgb(117, 117, 117);
 
-    
+
+}
+
+/* resume related styles */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-institute {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.resume-institute {
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    margin-left: 50px;
+}
+
+.resume-column-title {
+    margin-left: 50px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.download-cv {
+  
+    text-align: center;
+   
 }
