@@ -1,0 +1,119 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.text-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 10px;
+    width: 80px;
+    border: 0;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.span {
+    color: rgb(253, 110, 10);
+
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* header related styles */
+
+.header {
+    background-color: rgb(255, 248, 243);
+    ;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.banner-contact {
+    max-width: 500px;
+}
+
+.profile-pic {
+    width: 500px;
+}
+
+.banner-title {
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.banner-greeting {
+    font-size: 70px;
+    font-weight: 800px;
+    color: rgb(24, 24, 24);
+}
+
+.banner-description {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    width: 120px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    border: 0px;
+} 
+
+.btn-secondary {
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    margin: 20px;
+    color: rgb(253, 110, 10);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700px;
+    background-color:white
+    
+}
