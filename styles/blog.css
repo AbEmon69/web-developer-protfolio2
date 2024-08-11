@@ -262,3 +262,33 @@ main {
     text-align: center;
    
 }
+
+/* footer related styles */
+
+footer {
+    display: flex;
+    background-color: rgb(255, 248, 243);
+    margin-top: 100px;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"] ,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
